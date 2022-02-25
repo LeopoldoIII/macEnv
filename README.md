@@ -40,8 +40,9 @@ brew install --cask microsoft-teams
 
 brew install --cask github
 
-# https://tuataras.net/blog-es/tutoriales/como-instalar-postgresql-en-macos-con-brew/
-    
+brew install --cask slack
+
+# python
 brew install pyenv
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
@@ -81,7 +82,6 @@ brew install cowsay fortune figlet lolcat
 
 # sudo gem install lolcat
 
-brew install --cask slack
 
 mkdir ~/.nvm
 
