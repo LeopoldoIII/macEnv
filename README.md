@@ -90,3 +90,41 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
   
   ```
+  
+  
+  ## Ubuntu setup 
+
+Pyenv ubuntu installation 
+[Pyenv](https://www.liquidweb.com/kb/how-to-install-pyenv-on-ubuntu-18-04/)
+
+```
+apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
+```
+
+How to pyenv [intro-to-pyenv](https://realpython.com/intro-to-pyenv/)
+
+```
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+eval "$(pyenv init --path)"
+```
+
+To configure oh my zsh [oh-my-zsh](https://www.tecmint.com/install-oh-my-zsh-in-ubuntu/)
+
+To fix `Zsh not installed! Install zsh first.` [here](https://askubuntu.com/questions/1032567/install-zsh-in-ubuntu-18-04)
+
+Swith to zsh [here](https://askubuntu.com/questions/131823/how-to-make-zsh-the-default-shell)
+
+## sudo install 
+
+`
+apt-get update && apt-get -y install sudo
+`
+
+## Useful Python links
+
+
+## Git 
+
+Git reset [como-deshacer-el-ultimo-commit-git/](https://midu.dev/como-deshacer-el-ultimo-commit-git/)
