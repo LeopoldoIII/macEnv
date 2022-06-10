@@ -128,3 +128,11 @@ apt-get update && apt-get -y install sudo
 ## Git 
 
 Git reset [como-deshacer-el-ultimo-commit-git/](https://midu.dev/como-deshacer-el-ultimo-commit-git/)
+
+# WSL 2 installation 
+
+https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10
+
+https://docs.microsoft.com/es-es/windows/wsl/install
+
+https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
